@@ -37,3 +37,8 @@ build/
 
 # ignora i loggi
 ./logs/
+
+
+# ignora altre vaccate 
+.directory
+
