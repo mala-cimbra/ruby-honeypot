@@ -36,7 +36,10 @@ build/
 .rvmrc
 
 # ignora i loggi
-./logs/
+logs/
+
+# ignora i download
+wget-dl/
 
 
 # ignora altre vaccate 

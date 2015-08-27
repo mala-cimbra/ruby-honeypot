@@ -18,10 +18,10 @@ module HoneyServer
   
   def receive_data(data)
     @logging.write(data)
-    send_data(bash(data.chomp!))
+    send_data(commandLine(data.chomp!))
     send_prompt
   end
-  
+
   def unbind
     puts "Client disconnected: #{@remotehost[0]} - #{Time.now}"
     @logging.close
