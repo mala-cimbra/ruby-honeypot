@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
-  require 'eventmachine'
-  require 'pp'
+require 'eventmachine'
+require 'pp'
   
 require './modules/cli.rb'
 require './modules/log.rb'
